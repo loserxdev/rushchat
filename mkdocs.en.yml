@@ -1,0 +1,48 @@
+# English navigation (optional, for custom English nav structure)
+# This file is optional - the plugin will use the same nav structure by default
+
+nav:
+  - Home: README.md
+  - Getting Started: getting-started.md
+  - Installation: installation.md
+  - Configuration: configuration.md
+  - User Guide:
+    - User System: user-guide/user-system.md
+    - Real-time Chat: user-guide/chat.md
+    - Channel System: user-guide/channels.md
+    - Sticker System: user-guide/stickers.md
+    - Invitation System: user-guide/invitations.md
+    - Contract Recommendations: user-guide/contracts.md
+    - Profile: user-guide/profile.md
+  - Admin Guide:
+    - Admin System: admin-guide/admin-system.md
+    - Admin Operations: admin-guide/operations.md
+    - Permissions: admin-guide/permissions.md
+  - Features:
+    - Points System: features/points-system.md
+    - Honor Levels: features/honor-system.md
+    - Wallet Verification: features/wallet-verification.md
+    - Red Packets: features/red-packets.md
+    - X402 Protocol: features/x402-protocol.md
+    - Voice Chat: features/voice-chat.md
+  - Technical:
+    - Architecture: technical/architecture.md
+    - API Documentation: technical/api.md
+    - WebSocket Events: technical/websocket.md
+    - Database Design: technical/database.md
+    - Rust Backend: technical/rust-backend.md
+    - React Frontend: technical/react-frontend.md
+  - Deployment:
+    - Overview: deployment/overview.md
+    - Railway Deployment: deployment/railway.md
+    - Vercel Deployment: deployment/vercel.md
+    - Environment Variables: deployment/environment.md
+    - Nginx Configuration: deployment/nginx.md
+  - Development:
+    - Setup: development/setup.md
+    - Code Structure: development/structure.md
+    - Contributing: development/contributing.md
+    - Testing: development/testing.md
+  - Changelog: changelog.md
+  - FAQ: faq.md
+  - Troubleshooting: troubleshooting.md

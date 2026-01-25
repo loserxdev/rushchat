@@ -1,0 +1,163 @@
+site_name: RushChat Documentation
+site_description: Real-time chat application built with Rust backend and React frontend
+site_author: RushChat Team
+site_url: https://rushchat.gitbook.io
+
+repo_name: RushChat
+repo_url: https://github.com/Yukitojp/RustChat
+
+# 使用默认的 docs 目录
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: README.md
+  - Getting Started: getting-started.md
+  - Installation: installation.md
+  - Configuration: configuration.md
+  - User Guide:
+    - User System: user-guide/user-system.md
+    - Real-time Chat: user-guide/chat.md
+    - Channel System: user-guide/channels.md
+    - Sticker System: user-guide/stickers.md
+    - Invitation System: user-guide/invitations.md
+    - Contract Recommendations: user-guide/contracts.md
+    - Profile: user-guide/profile.md
+  - Admin Guide:
+    - Admin System: admin-guide/admin-system.md
+    - Admin Operations: admin-guide/operations.md
+    - Permissions: admin-guide/permissions.md
+  - Features:
+    - Points System: features/points-system.md
+    - Honor Levels: features/honor-system.md
+    - Wallet Verification: features/wallet-verification.md
+    - Red Packets: features/red-packets.md
+    - X402 Protocol: features/x402-protocol.md
+    - Voice Chat: features/voice-chat.md
+  - Technical:
+    - Architecture: technical/architecture.md
+    - API Documentation: technical/api.md
+    - WebSocket Events: technical/websocket.md
+    - Database Design: technical/database.md
+    - Rust Backend: technical/rust-backend.md
+    - React Frontend: technical/react-frontend.md
+  - Deployment:
+    - Overview: deployment/overview.md
+    - Railway Deployment: deployment/railway.md
+    - Vercel Deployment: deployment/vercel.md
+    - Environment Variables: deployment/environment.md
+    - Nginx Configuration: deployment/nginx.md
+  - Development:
+    - Setup: development/setup.md
+    - Code Structure: development/structure.md
+    - Contributing: development/contributing.md
+    - Testing: development/testing.md
+  - Changelog: changelog.md
+  - FAQ: faq.md
+  - Troubleshooting: troubleshooting.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - markmap
+
+plugins:
+  - markmap
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: zh
+          name: 中文
+          build: true
+          nav_translations:
+            Home: 介绍
+            Getting Started: 快速开始
+            Installation: 安装指南
+            Configuration: 配置说明
+            User Guide: 用户指南
+            Admin Guide: 管理员指南
+            Features: 功能特性
+            Technical: 技术文档
+            Deployment: 部署指南
+            Development: 开发指南
+            Changelog: 更新日志
+            FAQ: 常见问题
+            Troubleshooting: 故障排除
+            User System: 用户系统
+            Real-time Chat: 实时聊天
+            Channel System: 频道系统
+            Sticker System: 表情包系统
+            Invitation System: 邀请系统
+            Contract Recommendations: 合约推荐
+            Profile: 个人资料
+            Admin System: 管理员系统
+            Admin Operations: 管理操作
+            Permissions: 权限说明
+            Points System: 积分系统
+            Honor Levels: 荣誉等级
+            Wallet Verification: 钱包验证
+            Red Packets: 红包系统
+            X402 Protocol: X402 协议
+            Voice Chat: 语音聊天
+            Architecture: 架构设计
+            API Documentation: API 文档
+            WebSocket Events: WebSocket 事件
+            Database Design: 数据库设计
+            Rust Backend: Rust 后端
+            React Frontend: React 前端
+            Overview: 部署概述
+            Railway Deployment: Railway 部署
+            Vercel Deployment: Vercel 部署
+            Environment Variables: 环境变量
+            Nginx Configuration: Nginx 配置
+            Setup: 开发环境
+            Code Structure: 代码结构
+            Contributing: 贡献指南
+            Testing: 测试指南
+      fallback_to_default: true
+  - search:
+      lang:
+        - zh
+        - en

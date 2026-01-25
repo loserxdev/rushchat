@@ -1,0 +1,38 @@
+{
+  "title": "RushChat 文档",
+  "description": "基于 Rust 后端和 React 前端构建的实时聊天应用完整文档",
+  "author": "RushChat Team",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "root": "./",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "theme-default",
+    "search",
+    "sharing",
+    "livereload"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "sharing": {
+      "facebook": true,
+      "twitter": true,
+      "google": false,
+      "weibo": false,
+      "instapaper": false,
+      "vk": false,
+      "all": [
+        "facebook",
+        "google",
+        "twitter",
+        "weibo",
+        "instapaper"
+      ]
+    }
+  }
+}
