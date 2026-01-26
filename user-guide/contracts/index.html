@@ -1,27 +1,27 @@
 
 <!DOCTYPE html>
 
-<html class="no-js" lang="zh">
+<html class="no-js" lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Real-time chat application built with Rust backend and React frontend" name="description"/>
 <meta content="RushChat Team" name="author"/>
-<link href="https://loserxdev.github.io/rushchat/zh/contracts/user-guide/" rel="canonical"/>
-<link href="../" rel="prev"/>
-<link href="../technical/" rel="next"/>
-<link href="../../../contracts/user-guide/" hreflang="en" rel="alternate"/>
-<link href="./" hreflang="zh" rel="alternate"/>
-<link href="../../../assets/images/favicon.png" rel="icon"/>
+<link href="https://loserxdev.github.io/rushchat/user-guide/contracts/" rel="canonical"/>
+<link href="../invitations/" rel="prev"/>
+<link href="../profile/" rel="next"/>
+<link href="./" hreflang="en" rel="alternate"/>
+<link href="../../zh/user-guide/contracts/" hreflang="zh" rel="alternate"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.7.1" name="generator"/>
-<title>用户指南 - RushChat Documentation</title>
-<link href="../../../assets/stylesheets/main.484c7ddc.min.css" rel="stylesheet"/>
-<link href="../../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
+<title>Contract Recommendations - RushChat Documentation</title>
+<link href="../../assets/stylesheets/main.484c7ddc.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<script src="../../../js/unpkg.com/d3@7.js" type="text/javascript"></script><script src="../../../js/unpkg.com/markmap-lib@0.18.js" type="text/javascript"></script><script src="../../../js/unpkg.com/markmap-view@0.18.js" type="text/javascript"></script><style type="text/css">div.mkdocs-markmap {
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<script src="../../js/unpkg.com/d3@7.js" type="text/javascript"></script><script src="../../js/unpkg.com/markmap-lib@0.18.js" type="text/javascript"></script><script src="../../js/unpkg.com/markmap-view@0.18.js" type="text/javascript"></script><style type="text/css">div.mkdocs-markmap {
     width: 100%;
     min-height: 1em;
     border: 1px solid grey;
@@ -38,14 +38,14 @@
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
 <a class="md-skip" href="#contract-recommendations">
-          跳转至
+          Skip to content
         </a>
 </div>
 <div data-md-component="announce">
 </div>
 <header class="md-header" data-md-component="header">
-<nav aria-label="页眉" class="md-header__inner md-grid">
-<a aria-label="RushChat Documentation" class="md-header__button md-logo" data-md-component="logo" href="../../" title="RushChat Documentation">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="RushChat Documentation" class="md-header__button md-logo" data-md-component="logo" href="../.." title="RushChat Documentation">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -61,7 +61,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              用户指南
+              Contract Recommendations
             
           </span>
 </div>
@@ -80,18 +80,18 @@
 <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
 <div class="md-header__option">
 <div class="md-select">
-<button aria-label="选择当前语言" class="md-header__button md-icon">
+<button aria-label="Select language" class="md-header__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"></path></svg>
 </button>
 <div class="md-select__inner">
 <ul class="md-select__list">
 <li class="md-select__item">
-<a class="md-select__link" href="../../../contracts/user-guide/" hreflang="en">
+<a class="md-select__link" href="./" hreflang="en">
               English
             </a>
 </li>
 <li class="md-select__item">
-<a class="md-select__link" href="./" hreflang="zh">
+<a class="md-select__link" href="../../zh/user-guide/contracts/" hreflang="zh">
               中文
             </a>
 </li>
@@ -106,13 +106,13 @@
 <label class="md-search__overlay" for="__search"></label>
 <div class="md-search__inner" role="search">
 <form class="md-search__form" name="search">
-<input aria-label="搜索" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="搜索" required="" spellcheck="false" type="text"/>
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
 <label class="md-search__icon md-icon" for="__search">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
 </label>
-<nav aria-label="查找" class="md-search__options">
-<button aria-label="清空当前内容" class="md-search__icon md-icon" tabindex="-1" title="清空当前内容" type="reset">
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
 </button>
 </nav>
@@ -122,7 +122,7 @@
 <div class="md-search__scrollwrap" data-md-scrollfix="" tabindex="0">
 <div class="md-search-result" data-md-component="search-result">
 <div class="md-search-result__meta">
-            正在初始化搜索引擎
+            Initializing search
           </div>
 <ol class="md-search-result__list" role="presentation"></ol>
 </div>
@@ -131,7 +131,7 @@
 </div>
 </div>
 <div class="md-header__source">
-<a class="md-source" data-md-component="source" href="https://github.com/Yukitojp/RustChat" title="前往仓库">
+<a class="md-source" data-md-component="source" href="https://github.com/Yukitojp/RustChat" title="Go to repository">
 <div class="md-source__icon md-icon">
 <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
 </div>
@@ -143,17 +143,17 @@
 </nav>
 </header>
 <div class="md-container" data-md-component="container">
-<nav aria-label="标签" class="md-tabs" data-md-component="tabs">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
 <div class="md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../">
+<a class="md-tabs__link" href="../..">
         
   
   
     
   
-  介绍
+  Home
 
       </a>
 </li>
@@ -164,25 +164,25 @@
   
     
   
-  快速开始
+  Getting Started
 
       </a>
 </li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../user-guide/user-system/">
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../user-system/">
           
   
   
-  用户指南
+  User Guide
 
         </a>
 </li>
-<li class="md-tabs__item md-tabs__item--active">
-<a class="md-tabs__link" href="../">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../contracts/">
           
   
   
-  系统参考
+  System Reference
 
         </a>
 </li>
@@ -194,15 +194,15 @@
 <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
-<nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="RushChat Documentation" class="md-nav__button md-logo" data-md-component="logo" href="../../" title="RushChat Documentation">
+<a aria-label="RushChat Documentation" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="RushChat Documentation">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
 </a>
     RushChat Documentation
   </label>
 <div class="md-nav__source">
-<a class="md-source" data-md-component="source" href="https://github.com/Yukitojp/RustChat" title="前往仓库">
+<a class="md-source" data-md-component="source" href="https://github.com/Yukitojp/RustChat" title="Go to repository">
 <div class="md-source__icon md-icon">
 <svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"></path></svg>
 </div>
@@ -213,11 +213,11 @@
 </div>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../">
+<a class="md-nav__link" href="../..">
 <span class="md-ellipsis">
     
   
-    介绍
+    Home
   
 
     
@@ -229,42 +229,42 @@
 <span class="md-ellipsis">
     
   
-    快速开始
+    Getting Started
   
 
     
   </span>
 </a>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
-<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
 <span class="md-ellipsis">
     
   
-    用户指南
+    User Guide
   
 
     
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<nav aria-expanded="true" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
 <label class="md-nav__title" for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
             
   
-    用户指南
+    User Guide
   
 
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../user-guide/user-system/">
+<a class="md-nav__link" href="../user-system/">
 <span class="md-ellipsis">
     
   
-    用户系统
+    User System
   
 
     
@@ -272,11 +272,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../user-guide/chat/">
+<a class="md-nav__link" href="../chat/">
 <span class="md-ellipsis">
     
   
-    实时聊天
+    Real-time Chat
   
 
     
@@ -284,11 +284,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../user-guide/channels/">
+<a class="md-nav__link" href="../channels/">
 <span class="md-ellipsis">
     
   
-    频道系统
+    Channel System
   
 
     
@@ -296,11 +296,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../user-guide/stickers/">
+<a class="md-nav__link" href="../stickers/">
 <span class="md-ellipsis">
     
   
-    表情包系统
+    Sticker System
   
 
     
@@ -308,84 +308,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../user-guide/invitations/">
+<a class="md-nav__link" href="../invitations/">
 <span class="md-ellipsis">
     
   
-    邀请系统
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../user-guide/profile/">
-<span class="md-ellipsis">
-    
-  
-    个人资料
-  
-
-    
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
-<span class="md-ellipsis">
-    
-  
-    系统参考
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_4">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    系统参考
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
-<span class="md-ellipsis">
-    
-  
-    智能合约
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="true" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
-<label class="md-nav__title" for="__nav_4_1">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    智能合约
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../">
-<span class="md-ellipsis">
-    
-  
-    概览
+    Invitation System
   
 
     
@@ -398,7 +325,7 @@
 <span class="md-ellipsis">
     
   
-    用户指南
+    Contract Recommendations
   
 
     
@@ -409,16 +336,16 @@
 <span class="md-ellipsis">
     
   
-    用户指南
+    Contract Recommendations
   
 
     
   </span>
 </a>
-<nav aria-label="目录" class="md-nav md-nav--secondary">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
 <span class="md-nav__icon md-icon"></span>
-      目录
+      Table of contents
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
@@ -594,11 +521,72 @@
 </nav>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../technical/">
+<a class="md-nav__link" href="../profile/">
 <span class="md-ellipsis">
     
   
-    技术详情
+    Profile
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    System Reference
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    System Reference
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+<span class="md-ellipsis">
+    
+  
+    Smart Contracts
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_1">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Smart Contracts
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../contracts/">
+<span class="md-ellipsis">
+    
+  
+    Overview
   
 
     
@@ -606,11 +594,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../deployment/">
+<a class="md-nav__link" href="../../contracts/technical/">
 <span class="md-ellipsis">
     
   
-    部署指南
+    Technical Details
   
 
     
@@ -618,11 +606,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../verification/">
+<a class="md-nav__link" href="../../contracts/deployment/">
 <span class="md-ellipsis">
     
   
-    验证指南
+    Deployment Guide
   
 
     
@@ -630,11 +618,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../env-guide/">
+<a class="md-nav__link" href="../../contracts/verification/">
 <span class="md-ellipsis">
     
   
-    环境变量指南
+    Verification Guide
   
 
     
@@ -642,11 +630,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../bsc-channel/">
+<a class="md-nav__link" href="../../contracts/env-guide/">
 <span class="md-ellipsis">
     
   
-    BSC 频道创建
+    Environment Guide
   
 
     
@@ -654,11 +642,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../bsc-token/">
+<a class="md-nav__link" href="../../contracts/bsc-channel/">
 <span class="md-ellipsis">
     
   
-    BSC 代币信息
+    BSC Channel Creation
   
 
     
@@ -666,11 +654,23 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../channel-creation/">
+<a class="md-nav__link" href="../../contracts/bsc-token/">
 <span class="md-ellipsis">
     
   
-    频道部署
+    BSC Token Info
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../contracts/channel-creation/">
+<span class="md-ellipsis">
+    
+  
+    Channel Deployment
   
 
     
@@ -685,7 +685,7 @@
 <span class="md-ellipsis">
     
   
-    安装指南
+    Installation
   
 
     
@@ -697,20 +697,20 @@
 <span class="md-ellipsis">
     
   
-    配置说明
+    Configuration
   
 
     
   </span>
 </a>
 </li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_4" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
+<label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
 <span class="md-ellipsis">
     
   
-    管理员指南
+    Admin Guide
   
 
     
@@ -722,7 +722,7 @@
 <span class="md-nav__icon md-icon"></span>
             
   
-    管理员指南
+    Admin Guide
   
 
           </label>
@@ -732,7 +732,7 @@
 <span class="md-ellipsis">
     
   
-    管理员系统
+    Admin System
   
 
     
@@ -744,7 +744,7 @@
 <span class="md-ellipsis">
     
   
-    管理操作
+    Admin Operations
   
 
     
@@ -756,7 +756,7 @@
 <span class="md-ellipsis">
     
   
-    权限说明
+    Permissions
   
 
     
@@ -766,13 +766,13 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_5" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="">
+<label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
 <span class="md-ellipsis">
     
   
-    功能特性
+    Features
   
 
     
@@ -784,7 +784,7 @@
 <span class="md-nav__icon md-icon"></span>
             
   
-    功能特性
+    Features
   
 
           </label>
@@ -794,7 +794,7 @@
 <span class="md-ellipsis">
     
   
-    积分系统
+    Points System
   
 
     
@@ -806,7 +806,7 @@
 <span class="md-ellipsis">
     
   
-    荣誉等级
+    Honor Levels
   
 
     
@@ -818,7 +818,7 @@
 <span class="md-ellipsis">
     
   
-    钱包验证
+    Wallet Verification
   
 
     
@@ -830,7 +830,7 @@
 <span class="md-ellipsis">
     
   
-    红包系统
+    Red Packets
   
 
     
@@ -842,7 +842,7 @@
 <span class="md-ellipsis">
     
   
-    X402 协议
+    X402 Protocol
   
 
     
@@ -854,7 +854,7 @@
 <span class="md-ellipsis">
     
   
-    语音聊天
+    Voice Chat
   
 
     
@@ -864,13 +864,13 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_6" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="">
+<label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
 <span class="md-ellipsis">
     
   
-    技术文档
+    Technical
   
 
     
@@ -882,7 +882,7 @@
 <span class="md-nav__icon md-icon"></span>
             
   
-    技术文档
+    Technical
   
 
           </label>
@@ -892,7 +892,7 @@
 <span class="md-ellipsis">
     
   
-    架构设计
+    Architecture
   
 
     
@@ -904,7 +904,7 @@
 <span class="md-ellipsis">
     
   
-    API 文档
+    API Documentation
   
 
     
@@ -916,7 +916,7 @@
 <span class="md-ellipsis">
     
   
-    WebSocket 事件
+    WebSocket Events
   
 
     
@@ -928,7 +928,7 @@
 <span class="md-ellipsis">
     
   
-    数据库设计
+    Database Design
   
 
     
@@ -940,7 +940,7 @@
 <span class="md-ellipsis">
     
   
-    Rust 后端
+    Rust Backend
   
 
     
@@ -952,7 +952,7 @@
 <span class="md-ellipsis">
     
   
-    React 前端
+    React Frontend
   
 
     
@@ -962,13 +962,13 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_7" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="">
+<label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="0">
 <span class="md-ellipsis">
     
   
-    部署指南
+    Deployment
   
 
     
@@ -980,7 +980,7 @@
 <span class="md-nav__icon md-icon"></span>
             
   
-    部署指南
+    Deployment
   
 
           </label>
@@ -990,7 +990,7 @@
 <span class="md-ellipsis">
     
   
-    概览
+    Overview
   
 
     
@@ -1002,7 +1002,7 @@
 <span class="md-ellipsis">
     
   
-    Railway 部署
+    Railway Deployment
   
 
     
@@ -1014,7 +1014,7 @@
 <span class="md-ellipsis">
     
   
-    Vercel 部署
+    Vercel Deployment
   
 
     
@@ -1026,7 +1026,7 @@
 <span class="md-ellipsis">
     
   
-    环境变量
+    Environment Variables
   
 
     
@@ -1038,7 +1038,7 @@
 <span class="md-ellipsis">
     
   
-    Nginx 配置
+    Nginx Configuration
   
 
     
@@ -1048,13 +1048,13 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<li class="md-nav__item md-nav__item--nested">
 <input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_8" type="checkbox"/>
-<label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="">
+<label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
 <span class="md-ellipsis">
     
   
-    开发指南
+    Development
   
 
     
@@ -1066,7 +1066,7 @@
 <span class="md-nav__icon md-icon"></span>
             
   
-    开发指南
+    Development
   
 
           </label>
@@ -1076,7 +1076,7 @@
 <span class="md-ellipsis">
     
   
-    开发环境
+    Setup
   
 
     
@@ -1088,7 +1088,7 @@
 <span class="md-ellipsis">
     
   
-    代码结构
+    Code Structure
   
 
     
@@ -1100,7 +1100,7 @@
 <span class="md-ellipsis">
     
   
-    贡献指南
+    Contributing
   
 
     
@@ -1112,7 +1112,7 @@
 <span class="md-ellipsis">
     
   
-    测试指南
+    Testing
   
 
     
@@ -1127,7 +1127,7 @@
 <span class="md-ellipsis">
     
   
-    更新日志
+    Changelog
   
 
     
@@ -1139,7 +1139,7 @@
 <span class="md-ellipsis">
     
   
-    常见问题
+    FAQ
   
 
     
@@ -1151,7 +1151,7 @@
 <span class="md-ellipsis">
     
   
-    故障排除
+    Troubleshooting
   
 
     
@@ -1169,10 +1169,10 @@
 <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
-<nav aria-label="目录" class="md-nav md-nav--secondary">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
 <label class="md-nav__title" for="__toc">
 <span class="md-nav__icon md-icon"></span>
-      目录
+      Table of contents
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
@@ -1438,7 +1438,7 @@
 </ul>
 <h2 id="related-documentation">Related Documentation</h2>
 <ul>
-<li><a href="../../user-guide/chat/">Real-time Chat</a></li>
+<li><a href="../chat/">Real-time Chat</a></li>
 <li><a href="../../features/points-system/">Points System</a></li>
 </ul>
 </article>
@@ -1447,7 +1447,7 @@
 </div>
 <button class="md-top md-icon" data-md-component="top" hidden="" type="button">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
-  回到页面顶部
+  Back to top
 </button>
 </main>
 <footer class="md-footer">
@@ -1468,8 +1468,8 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
-<script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+<script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+<script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
 <script type="text/javascript">(function initializeMarkmap() {
     const transformer = new markmap.Transformer();
     const preloadScripts = transformer.plugins
