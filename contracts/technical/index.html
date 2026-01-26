@@ -7,14 +7,14 @@
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Real-time chat application built with Rust backend and React frontend" name="description"/>
 <meta content="RushChat Team" name="author"/>
-<link href="https://loserxdev.github.io/rushchat/technical/smart-contracts/" rel="canonical"/>
-<link href="../react-frontend/" rel="prev"/>
-<link href="../../deployment/overview/" rel="next"/>
+<link href="https://loserxdev.github.io/rushchat/contracts/technical/" rel="canonical"/>
+<link href="../user-guide/" rel="prev"/>
+<link href="../deployment/" rel="next"/>
 <link href="./" hreflang="en" rel="alternate"/>
-<link href="../../zh/technical/smart-contracts/" hreflang="zh" rel="alternate"/>
+<link href="../../zh/contracts/technical/" hreflang="zh" rel="alternate"/>
 <link href="../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.6.1, mkdocs-material-9.7.1" name="generator"/>
-<title>Smart Contracts - RushChat Documentation</title>
+<title>Technical Details - RushChat Documentation</title>
 <link href="../../assets/stylesheets/main.484c7ddc.min.css" rel="stylesheet"/>
 <link href="../../assets/stylesheets/palette.ab4e12ef.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
@@ -61,7 +61,7 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Smart Contracts
+              Technical Details
             
           </span>
 </div>
@@ -91,7 +91,7 @@
             </a>
 </li>
 <li class="md-select__item">
-<a class="md-select__link" href="../../zh/technical/smart-contracts/" hreflang="zh">
+<a class="md-select__link" href="../../zh/contracts/technical/" hreflang="zh">
               中文
             </a>
 </li>
@@ -169,28 +169,6 @@
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../installation/">
-        
-  
-  
-    
-  
-  Installation
-
-      </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../configuration/">
-        
-  
-  
-    
-  
-  Configuration
-
-      </a>
-</li>
-<li class="md-tabs__item">
 <a class="md-tabs__link" href="../../user-guide/user-system/">
           
   
@@ -199,83 +177,14 @@
 
         </a>
 </li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../admin-guide/admin-system/">
-          
-  
-  
-  Admin Guide
-
-        </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../features/points-system/">
-          
-  
-  
-  Features
-
-        </a>
-</li>
 <li class="md-tabs__item md-tabs__item--active">
-<a class="md-tabs__link" href="../architecture/">
+<a class="md-tabs__link" href="../">
           
   
   
-  Technical
+  System Reference
 
         </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../deployment/overview/">
-          
-  
-  
-  Deployment
-
-        </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../development/setup/">
-          
-  
-  
-  Development
-
-        </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../changelog/">
-        
-  
-  
-    
-  
-  Changelog
-
-      </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../faq/">
-        
-  
-  
-    
-  
-  FAQ
-
-      </a>
-</li>
-<li class="md-tabs__item">
-<a class="md-tabs__link" href="../../troubleshooting/">
-        
-  
-  
-    
-  
-  Troubleshooting
-
-      </a>
 </li>
 </ul>
 </div>
@@ -327,33 +236,9 @@
   </span>
 </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../installation/">
-<span class="md-ellipsis">
-    
-  
-    Installation
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../configuration/">
-<span class="md-ellipsis">
-    
-  
-    Configuration
-  
-
-    
-  </span>
-</a>
-</li>
 <li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_5" type="checkbox"/>
-<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
 <span class="md-ellipsis">
     
   
@@ -364,8 +249,8 @@
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_5">
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
 <span class="md-nav__icon md-icon"></span>
             
   
@@ -435,18 +320,6 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../user-guide/contracts/">
-<span class="md-ellipsis">
-    
-  
-    Contract Recommendations
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
 <a class="md-nav__link" href="../../user-guide/profile/">
 <span class="md-ellipsis">
     
@@ -461,195 +334,58 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_6" type="checkbox"/>
-<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Admin Guide
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_6">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Admin Guide
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../admin-guide/admin-system/">
-<span class="md-ellipsis">
-    
-  
-    Admin System
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../admin-guide/operations/">
-<span class="md-ellipsis">
-    
-  
-    Admin Operations
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../admin-guide/permissions/">
-<span class="md-ellipsis">
-    
-  
-    Permissions
-  
-
-    
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_7" type="checkbox"/>
-<label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
-<span class="md-ellipsis">
-    
-  
-    Features
-  
-
-    
-  </span>
-<span class="md-nav__icon md-icon"></span>
-</label>
-<nav aria-expanded="false" aria-labelledby="__nav_7_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_7">
-<span class="md-nav__icon md-icon"></span>
-            
-  
-    Features
-  
-
-          </label>
-<ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../features/points-system/">
-<span class="md-ellipsis">
-    
-  
-    Points System
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../features/honor-system/">
-<span class="md-ellipsis">
-    
-  
-    Honor Levels
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../features/wallet-verification/">
-<span class="md-ellipsis">
-    
-  
-    Wallet Verification
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../features/red-packets/">
-<span class="md-ellipsis">
-    
-  
-    Red Packets
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../features/x402-protocol/">
-<span class="md-ellipsis">
-    
-  
-    X402 Protocol
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../features/voice-chat/">
-<span class="md-ellipsis">
-    
-  
-    Voice Chat
-  
-
-    
-  </span>
-</a>
-</li>
-</ul>
-</nav>
-</li>
 <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" id="__nav_8" type="checkbox"/>
-<label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
 <span class="md-ellipsis">
     
   
-    Technical
+    System Reference
   
 
     
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="true" aria-labelledby="__nav_8_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_8">
+<nav aria-expanded="true" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
 <span class="md-nav__icon md-icon"></span>
             
   
-    Technical
+    System Reference
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_4_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="">
+<span class="md-ellipsis">
+    
+  
+    Smart Contracts
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_4_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_1">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Smart Contracts
   
 
           </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../architecture/">
+<a class="md-nav__link" href="../">
 <span class="md-ellipsis">
     
   
-    Architecture
+    Overview
   
 
     
@@ -657,59 +393,11 @@
 </a>
 </li>
 <li class="md-nav__item">
-<a class="md-nav__link" href="../api/">
+<a class="md-nav__link" href="../user-guide/">
 <span class="md-ellipsis">
     
   
-    API Documentation
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../websocket/">
-<span class="md-ellipsis">
-    
-  
-    WebSocket Events
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../database/">
-<span class="md-ellipsis">
-    
-  
-    Database Design
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../rust-backend/">
-<span class="md-ellipsis">
-    
-  
-    Rust Backend
-  
-
-    
-  </span>
-</a>
-</li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="../react-frontend/">
-<span class="md-ellipsis">
-    
-  
-    React Frontend
+    User Guide
   
 
     
@@ -722,7 +410,7 @@
 <span class="md-ellipsis">
     
   
-    Smart Contracts
+    Technical Details
   
 
     
@@ -733,7 +421,7 @@
 <span class="md-ellipsis">
     
   
-    Smart Contracts
+    Technical Details
   
 
     
@@ -1205,12 +893,366 @@
 </ul>
 </nav>
 </li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../deployment/">
+<span class="md-ellipsis">
+    
+  
+    Deployment Guide
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../verification/">
+<span class="md-ellipsis">
+    
+  
+    Verification Guide
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../env-guide/">
+<span class="md-ellipsis">
+    
+  
+    Environment Guide
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../bsc-channel/">
+<span class="md-ellipsis">
+    
+  
+    BSC Channel Creation
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../bsc-token/">
+<span class="md-ellipsis">
+    
+  
+    BSC Token Info
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../channel-creation/">
+<span class="md-ellipsis">
+    
+  
+    Channel Deployment
+  
+
+    
+  </span>
+</a>
+</li>
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_9" type="checkbox"/>
-<label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../installation/">
+<span class="md-ellipsis">
+    
+  
+    Installation
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../configuration/">
+<span class="md-ellipsis">
+    
+  
+    Configuration
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="">
+<span class="md-ellipsis">
+    
+  
+    Admin Guide
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_4">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Admin Guide
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../admin-guide/admin-system/">
+<span class="md-ellipsis">
+    
+  
+    Admin System
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../admin-guide/operations/">
+<span class="md-ellipsis">
+    
+  
+    Admin Operations
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../admin-guide/permissions/">
+<span class="md-ellipsis">
+    
+  
+    Permissions
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="">
+<span class="md-ellipsis">
+    
+  
+    Features
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_5">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Features
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../features/points-system/">
+<span class="md-ellipsis">
+    
+  
+    Points System
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../features/honor-system/">
+<span class="md-ellipsis">
+    
+  
+    Honor Levels
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../features/wallet-verification/">
+<span class="md-ellipsis">
+    
+  
+    Wallet Verification
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../features/red-packets/">
+<span class="md-ellipsis">
+    
+  
+    Red Packets
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../features/x402-protocol/">
+<span class="md-ellipsis">
+    
+  
+    X402 Protocol
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../features/voice-chat/">
+<span class="md-ellipsis">
+    
+  
+    Voice Chat
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="">
+<span class="md-ellipsis">
+    
+  
+    Technical
+  
+
+    
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_6">
+<span class="md-nav__icon md-icon"></span>
+            
+  
+    Technical
+  
+
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../technical/architecture/">
+<span class="md-ellipsis">
+    
+  
+    Architecture
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../technical/api/">
+<span class="md-ellipsis">
+    
+  
+    API Documentation
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../technical/websocket/">
+<span class="md-ellipsis">
+    
+  
+    WebSocket Events
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../technical/database/">
+<span class="md-ellipsis">
+    
+  
+    Database Design
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../technical/rust-backend/">
+<span class="md-ellipsis">
+    
+  
+    Rust Backend
+  
+
+    
+  </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../technical/react-frontend/">
+<span class="md-ellipsis">
+    
+  
+    React Frontend
+  
+
+    
+  </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_7" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_7" id="__nav_4_7_label" tabindex="">
 <span class="md-ellipsis">
     
   
@@ -1221,8 +1263,8 @@
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_9_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_9">
+<nav aria-expanded="false" aria-labelledby="__nav_4_7_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_7">
 <span class="md-nav__icon md-icon"></span>
             
   
@@ -1294,9 +1336,9 @@
 </ul>
 </nav>
 </li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_10" type="checkbox"/>
-<label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle md-toggle--indeterminate" id="__nav_4_8" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="">
 <span class="md-ellipsis">
     
   
@@ -1307,8 +1349,8 @@
   </span>
 <span class="md-nav__icon md-icon"></span>
 </label>
-<nav aria-expanded="false" aria-labelledby="__nav_10_label" class="md-nav" data-md-level="1">
-<label class="md-nav__title" for="__nav_10">
+<nav aria-expanded="false" aria-labelledby="__nav_4_8_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_8">
 <span class="md-nav__icon md-icon"></span>
             
   
@@ -1403,6 +1445,9 @@
     
   </span>
 </a>
+</li>
+</ul>
+</nav>
 </li>
 </ul>
 </nav>
@@ -2289,9 +2334,9 @@
 </ul>
 <h2 id="references">References</h2>
 <ul>
-<li><a href="../contracts/contracts/RedPacket.sol">EVM Contract Source</a></li>
-<li><a href="../contracts/solana-red-packet/src/lib.rs">Solana Program Source</a></li>
-<li><a href="./x402-protocol.md">X402 Protocol Documentation</a></li>
+<li><a href="https://github.com/Yukitojp/RustChat/blob/main/contracts/contracts/RedPacket.sol">EVM Contract Source</a></li>
+<li><a href="https://github.com/Yukitojp/RustChat/blob/main/contracts/solana-red-packet/src/lib.rs">Solana Program Source</a></li>
+<li><a href="../../features/x402-protocol/">X402 Protocol Documentation</a></li>
 <li><a href="../../features/red-packets/">Red Packets Feature Guide</a></li>
 </ul>
 </article>

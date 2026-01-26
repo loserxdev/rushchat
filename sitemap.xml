@@ -71,6 +71,69 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/admin-guide/permissions/"/>
     </url>
     <url>
+        <loc>https://loserxdev.github.io/rushchat/contracts/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/contracts/bsc-channel/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/bsc-channel/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/bsc-channel/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/contracts/bsc-token/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/bsc-token/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/bsc-token/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/contracts/channel-creation/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/channel-creation/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/channel-creation/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/contracts/deployment/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/deployment/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/deployment/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/contracts/env-guide/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/env-guide/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/env-guide/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/contracts/technical/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/technical/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/technical/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/contracts/user-guide/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/user-guide/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/user-guide/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/contracts/verification/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/verification/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/verification/"/>
+    </url>
+    <url>
         <loc>https://loserxdev.github.io/rushchat/deployment/environment/</loc>
         <lastmod>2026-01-26</lastmod>
         <changefreq>daily</changefreq>
@@ -211,13 +274,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/technical/rust-backend/"/>
     </url>
     <url>
-        <loc>https://loserxdev.github.io/rushchat/technical/smart-contracts/</loc>
-        <lastmod>2026-01-26</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/technical/smart-contracts/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/technical/smart-contracts/"/>
-    </url>
-    <url>
         <loc>https://loserxdev.github.io/rushchat/technical/websocket/</loc>
         <lastmod>2026-01-26</lastmod>
         <changefreq>daily</changefreq>
@@ -237,13 +293,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/user-guide/chat/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/user-guide/chat/"/>
-    </url>
-    <url>
-        <loc>https://loserxdev.github.io/rushchat/user-guide/contracts/</loc>
-        <lastmod>2026-01-26</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/user-guide/contracts/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/user-guide/contracts/"/>
     </url>
     <url>
         <loc>https://loserxdev.github.io/rushchat/user-guide/invitations/</loc>
@@ -342,6 +391,69 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/admin-guide/permissions/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/admin-guide/permissions/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/contracts/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/contracts/bsc-channel/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/bsc-channel/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/bsc-channel/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/contracts/bsc-token/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/bsc-token/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/bsc-token/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/contracts/channel-creation/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/channel-creation/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/channel-creation/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/contracts/deployment/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/deployment/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/deployment/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/contracts/env-guide/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/env-guide/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/env-guide/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/contracts/technical/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/technical/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/technical/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/contracts/user-guide/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/user-guide/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/user-guide/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/contracts/verification/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/verification/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/contracts/verification/"/>
     </url>
     <url>
         <loc>https://loserxdev.github.io/rushchat/zh/deployment/environment/</loc>
@@ -484,13 +596,6 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/technical/rust-backend/"/>
     </url>
     <url>
-        <loc>https://loserxdev.github.io/rushchat/zh/technical/smart-contracts/</loc>
-        <lastmod>2026-01-26</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/technical/smart-contracts/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/technical/smart-contracts/"/>
-    </url>
-    <url>
         <loc>https://loserxdev.github.io/rushchat/zh/technical/websocket/</loc>
         <lastmod>2026-01-26</lastmod>
         <changefreq>daily</changefreq>
@@ -510,13 +615,6 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/user-guide/chat/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/user-guide/chat/"/>
-    </url>
-    <url>
-        <loc>https://loserxdev.github.io/rushchat/zh/user-guide/contracts/</loc>
-        <lastmod>2026-01-26</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/user-guide/contracts/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/user-guide/contracts/"/>
     </url>
     <url>
         <loc>https://loserxdev.github.io/rushchat/zh/user-guide/invitations/</loc>
@@ -731,5 +829,17 @@
         <lastmod>2026-01-26</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/x402-protocol/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/technical/smart-contracts/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/technical/smart-contracts/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/user-guide/contracts/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/user-guide/contracts/"/>
     </url>
 </urlset>
