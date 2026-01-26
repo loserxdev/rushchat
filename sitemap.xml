@@ -211,6 +211,13 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/technical/rust-backend/"/>
     </url>
     <url>
+        <loc>https://loserxdev.github.io/rushchat/technical/smart-contracts/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/technical/smart-contracts/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/technical/smart-contracts/"/>
+    </url>
+    <url>
         <loc>https://loserxdev.github.io/rushchat/technical/websocket/</loc>
         <lastmod>2026-01-26</lastmod>
         <changefreq>daily</changefreq>
@@ -475,6 +482,13 @@
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/technical/rust-backend/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/technical/rust-backend/"/>
+    </url>
+    <url>
+        <loc>https://loserxdev.github.io/rushchat/zh/technical/smart-contracts/</loc>
+        <lastmod>2026-01-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/technical/smart-contracts/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://loserxdev.github.io/rushchat/technical/smart-contracts/"/>
     </url>
     <url>
         <loc>https://loserxdev.github.io/rushchat/zh/technical/websocket/</loc>
