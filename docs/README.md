@@ -1,19 +1,23 @@
-# RushChat Documentation
+# Rush.Moe Documentation
 
-> Real-time chat application built with Rust backend and React frontend
+> Native Solana Web3 real-time chat application (EVM compatible)
 
-![RushChat](https://img.shields.io/badge/RushChat-v2.0.0-blue)
+![Rush.Moe](https://img.shields.io/badge/Rush.Moe-v2.0.0-blue)
 ![Rust](https://img.shields.io/badge/Rust-1.70+-orange)
 ![React](https://img.shields.io/badge/React-18-blue)
 
 ## 🚀 Introduction
 
-RushChat is a modern real-time chat application built with Rust backend and React frontend, supporting multiple channels, real-time messaging, stickers, contract recommendations, and more.
+**Rush.Moe** is a native Solana Web3 real-time chat application (EVM compatible). **Discovering Alpha and instant trading opportunities first** is Rush's core philosophy.
+
+Anyone can build their own Alpha channel on Rush.Moe (with options for paid/private channels, earning trading fees, supporting Solana & EVM NFT verification for private channel access). Voice chat further enhances real-time community communication efficiency.
+
+Invite friends to join Rush.Moe and share channel creation fees & trading fees (upcoming feature).
 
 ## ✨ Core Features
 
 ```markmap
-# RushChat Core Features
+# Rush.Moe Core Features
 ## Communication
 - Real-time Messaging
   - WebSocket
@@ -23,11 +27,16 @@ RushChat is a modern real-time chat application built with Rust backend and Reac
   - WebRTC
   - Screen Sharing
   - Multi-user Support
-## Channel System
-- Public Channels
-- Private Channels
+  - Enhanced Community Efficiency
+## Alpha Channel System
+- Build Your Own Alpha Channel
+  - Paid Channels
+  - Private Channels
+  - Earn Trading Fees
+- Channel Access Control
+  - Solana NFT Verification
+  - EVM NFT Verification
   - Password Protected
-  - Wallet Verification
 ## User Management
 - Guest Mode
 - Registration & Login
@@ -47,11 +56,15 @@ RushChat is a modern real-time chat application built with Rust backend and Reac
 - Honor Levels (0-10)
 ## Social Features
 - Invitation System
+  - Share Channel Creation Fees
+  - Share Trading Fees (Upcoming)
 - Contract Recommendations
 - Sticker System
   - System Emojis
   - Custom GIF Stickers
 ## Blockchain Integration
+- Native Solana Support
+- EVM Compatibility
 - Wallet Verification
   - EVM Wallets
   - Solana Wallets
@@ -61,16 +74,44 @@ RushChat is a modern real-time chat application built with Rust backend and Reac
 - X402 Protocol
 ```
 
-- 💬 **Real-time Communication** - WebSocket-based instant messaging
+## 🎯 Core Philosophy
+
+**Discovering Alpha and instant trading opportunities first** is Rush's core philosophy.
+
+Rush.Moe enables users to:
+- Build and manage Alpha channels
+- Earn revenue from channel creation and trading fees
+- Access exclusive private channels through NFT verification
+- Communicate instantly through voice chat
+
+## 🌟 Key Features
+
+### Alpha Channel System
+
+- ✅ **Build Your Own Alpha Channel** - Create paid or private channels
+- ✅ **Earn Trading Fees** - Generate revenue from channel activities
+- ✅ **NFT Verification** - Solana & EVM NFT verification for private channel access
+- ✅ **Flexible Access Control** - Password protection and wallet verification
+
+### Real-time Communication
+
+- 💬 **Real-time Messaging** - WebSocket-based instant messaging
+- 🎤 **Voice Chat** - WebRTC voice calls in private channels with screen sharing
 - 📱 **Multi-channel Support** - Public and private channels
+
+### Web3 Integration
+
+- 🔗 **Native Solana** - Built for Solana ecosystem
+- ⛓️ **EVM Compatible** - Support for Ethereum, BSC, Polygon, etc.
+- 🔐 **Wallet Verification** - Connect EVM and Solana wallets
+- 💰 **Revenue Sharing** - Share channel creation fees & trading fees (upcoming)
+
+### Social Features
+
 - 👥 **User System** - Guest mode, registration, login, profile management
-- 🔐 **Permission Management** - Three-level administrator system
-- 💰 **Points System** - User points management and channel creation costs
-- 🏆 **Honor Levels** - 0-10 level honor system
 - 🎁 **Invitation System** - Personalized invitation codes, share to X, QR code sharing
 - 📊 **Contract Recommendations** - Users can recommend contracts with multi-emoji voting
 - 😊 **Sticker System** - System emojis + user custom GIF stickers
-- 🎤 **Voice Chat** - WebRTC voice calls in private channels with screen sharing
 
 ## 🛠️ Tech Stack
 
@@ -91,7 +132,7 @@ RushChat is a modern real-time chat application built with Rust backend and Reac
 ## 📚 Documentation Navigation
 
 ### Quick Start
-- [Installation Guide](installation.md) - How to install and configure RushChat
+- [Installation Guide](installation.md) - How to install and configure Rush.Moe
 - [Quick Start](getting-started.md) - Get started in 5 minutes
 - [Configuration](configuration.md) - Environment variables and configuration files
 

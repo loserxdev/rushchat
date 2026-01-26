@@ -73,7 +73,6 @@ DB_NAME=rushchat             # Database name
 ```env
 SOL_HTTP_RPC=https://api.mainnet-beta.solana.com
 SOL_RPC=https://api.mainnet-beta.solana.com
-SOL_MAINNET_RPC=https://rozanna-srqsog-fast-mainnet.helius-rpc.com
 ```
 
 #### Red Packet Contracts (Optional)

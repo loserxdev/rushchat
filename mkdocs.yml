@@ -1,7 +1,10 @@
 site_name: RushChat Documentation
 site_description: Real-time chat application built with Rust backend and React frontend
 site_author: RushChat Team
-site_url: https://rushchat.gitbook.io
+# 生产环境 URL - 如果部署在子目录，需要包含子目录路径并以 / 结尾
+# 根目录部署: https://your-domain.com/
+# 子目录部署: https://username.github.io/repository-name/
+site_url: https://loserxdev.github.io/rushchat/
 
 repo_name: RushChat
 repo_url: https://github.com/Yukitojp/RustChat
@@ -9,6 +12,9 @@ repo_url: https://github.com/Yukitojp/RustChat
 # 使用默认的 docs 目录
 docs_dir: docs
 site_dir: site
+
+# 确保在生产环境中正确处理路径
+use_directory_urls: true
 
 theme:
   name: material
@@ -103,6 +109,9 @@ plugins:
   - markmap
   - i18n:
       docs_structure: folder
+      reconfigure_material: true
+      # 确保语言切换使用正确的路径
+      # 如果部署在子目录，site_url 需要包含子目录路径
       languages:
         - locale: en
           default: true

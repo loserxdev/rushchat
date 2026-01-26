@@ -67,7 +67,6 @@ MAIN_DOMAIN=your-domain.com    # Main domain
 ```env
 SOL_HTTP_RPC=https://api.mainnet-beta.solana.com
 SOL_RPC=https://api.mainnet-beta.solana.com
-SOL_MAINNET_RPC=https://rozanna-srqsog-fast-mainnet.helius-rpc.com
 SOLANA_RED_PACKET_PROGRAM_ID=your_program_id
 ```
 

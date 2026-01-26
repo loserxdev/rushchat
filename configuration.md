@@ -32,7 +32,6 @@ DB_NAME=rushchat             # 数据库名称
 ```env
 SOL_HTTP_RPC=https://api.mainnet-beta.solana.com
 SOL_RPC=https://api.mainnet-beta.solana.com
-SOL_MAINNET_RPC=https://rozanna-srqsog-fast-mainnet.helius-rpc.com
 ```
 
 #### 红包合约（可选）
