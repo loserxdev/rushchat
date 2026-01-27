@@ -675,12 +675,6 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/chat/"/>
     </url>
     <url>
-        <loc>https://loserxdev.github.io/rushchat/zh/contracts/</loc>
-        <lastmod>2026-01-27</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/"/>
-    </url>
-    <url>
         <loc>https://loserxdev.github.io/rushchat/zh/contributing/</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>daily</changefreq>
@@ -831,9 +825,9 @@
         <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/x402-protocol/"/>
     </url>
     <url>
-        <loc>https://loserxdev.github.io/rushchat/zh/technical/smart-contracts/</loc>
+        <loc>https://loserxdev.github.io/rushchat/zh/contracts/user-guide/</loc>
         <lastmod>2026-01-27</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/technical/smart-contracts/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://loserxdev.github.io/rushchat/zh/contracts/user-guide/"/>
     </url>
 </urlset>
