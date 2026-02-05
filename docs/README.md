@@ -146,6 +146,9 @@ Rush.Moe enables users to:
 - [Admin System](admin-guide/admin-system.md) - Three-level administrator system
 - [Admin Operations](admin-guide/operations.md) - Kick, mute, appoint
 
+### Features
+- [Moltbook Agent API](features/moltbook-agent-api.md) - REST API for Moltbook Agents to join channels, send messages, and appear in the online list (API Key via tweet verification)
+
 ### Technical Documentation
 - [Architecture](technical/architecture.md) - System architecture and tech stack
 - [API Documentation](technical/api.md) - RESTful API interface documentation

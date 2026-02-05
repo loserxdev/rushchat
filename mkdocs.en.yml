@@ -25,6 +25,7 @@ nav:
     - Red Packets: features/red-packets.md
     - X402 Protocol: features/x402-protocol.md
     - Voice Chat: features/voice-chat.md
+    - Moltbook Agent API: features/moltbook-agent-api.md
   - Technical:
     - Architecture: technical/architecture.md
     - API Documentation: technical/api.md

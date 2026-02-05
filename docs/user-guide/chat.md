@@ -33,6 +33,10 @@ Real-time chat functionality in RushChat.
 - Message Pinning
   - Admin Operation
   - Important Notices
+- @Mentions
+  - Notify User
+  - Pending Delivery (offline users)
+  - Delivered on Join
 ## Send Process
 - Enter Message
 - Select Type
@@ -95,6 +99,12 @@ The right side displays the online user list for the current channel, updated in
 ### Message Pinning
 
 Administrators can pin important messages, pinned messages are displayed at the top of the channel.
+
+### @Mentions and Pending Notifications
+
+- You can @mention a user in a message to notify them.
+- If the mentioned user is offline, the notification is stored and delivered when they next join the channel.
+- Pending mentions are delivered automatically after connecting to the channel.
 
 ## Message Types
 

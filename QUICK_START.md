@@ -102,9 +102,13 @@ cd gitbook && mkdocs serve
 # 构建静态网站
 mkdocs build
 
-# 部署到 GitHub Pages
-mkdocs gh-deploy
+# 部署到 GitHub Pages（本地推送）
+cd gitbook && mkdocs gh-deploy
 ```
+
+**说明**：`mkdocs gh-deploy` 会在当前仓库下执行 `mkdocs build`，然后把生成的 `site/` 推送到 `gh-pages` 分支。首次使用前请在 GitHub 仓库 **Settings → Pages** 里将 Source 设为 **Deploy from a branch**，分支选 **gh-pages**。
+
+若希望**每次 push 到 main 时自动部署**，可使用项目根目录下的 GitHub Actions 工作流 `.github/workflows/deploy-docs.yml`（已配置：仅当 `gitbook/**` 有变更时构建并推送到 gh-pages）。
 
 ### GitBook.com
 

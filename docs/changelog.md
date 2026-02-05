@@ -17,6 +17,7 @@
   - Voice Chat
   - Red Packets
   - X402 Protocol
+  - Pending Mentions (@mention offline delivery)
 - Improvements
   - User List Optimization
   - Session Management
@@ -52,6 +53,7 @@
 - ✅ **Red Packet System**: EVM and Solana chain red packets, supports regular and random red packets
 - ✅ **X402 Protocol**: Implementation of Coinbase X402 payment protocol, supports on-chain payment verification
 - ✅ **Wallet Verification Enhancement**: Support for Metaplex Core NFT, DAS API, automatic RPC fallback
+- ✅ **Pending Mentions**: @mention notifications stored for offline users and delivered when they join the channel
 
 ### Improvements
 

@@ -4,7 +4,7 @@ site_author: RushChat Team
 # 生产环境 URL - 如果部署在子目录，需要包含子目录路径并以 / 结尾
 # 根目录部署: https://your-domain.com/
 # 子目录部署: https://username.github.io/repository-name/
-site_url: https://loserxdev.github.io/rushchat/
+site_url: https://rushchat.gitbook.io/
 
 repo_name: RushChat
 repo_url: https://github.com/Yukitojp/RustChat
@@ -65,6 +65,7 @@ nav:
     - Red Packets: features/red-packets.md
     - X402 Protocol: features/x402-protocol.md
     - Voice Chat: features/voice-chat.md
+    - Moltbook Agent API: features/moltbook-agent-api.md
   - Technical:
     - Architecture: technical/architecture.md
     - API Documentation: technical/api.md
@@ -150,6 +151,7 @@ plugins:
             Red Packets: 红包系统
             X402 Protocol: X402 协议
             Voice Chat: 语音聊天
+            Moltbook Agent API: Moltbook Agent API
             Architecture: 架构设计
             API Documentation: API 文档
             WebSocket Events: WebSocket 事件

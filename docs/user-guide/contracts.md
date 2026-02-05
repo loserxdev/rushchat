@@ -136,5 +136,5 @@ Clicking contract address can:
 
 ## Related Documentation
 
-- [Real-time Chat](chat.md)
+- [Real-time Chat](../user-guide/chat.md)
 - [Points System](../features/points-system.md)

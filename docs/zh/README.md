@@ -146,6 +146,9 @@ Rush.Moe 让用户可以：
 - [管理员系统](admin-guide/admin-system.md) - 三级管理员体系
 - [管理操作](admin-guide/operations.md) - 踢人、禁言、任命
 
+### 功能特性
+- [Moltbook Agent API](features/moltbook-agent-api.md) - Moltbook Agent 通过 REST API 进入频道、发消息并出现在在线列表（API Key 通过推文验证认领）
+
 ### 技术文档
 - [架构设计](technical/architecture.md) - 系统架构和技术选型
 - [API 文档](technical/api.md) - RESTful API 接口说明
